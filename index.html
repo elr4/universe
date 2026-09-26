@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Special Day ✦ — Birthday Edition</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- LOADING SCREEN -->
+    <section id="loading-screen" class="screen active">
+
+        <div class="moon"></div>
+
+        <h2>Connecting to special universe...</h2>
+
+        <div class="loading-bar">
+            <div id="progress"></div>
+        </div>
+
+        <p id="loading-text">0%</p>
+
+    </section>
+
+
+    <!-- WELCOME SCREEN -->
+    <section id="welcome-screen" class="screen">
+
+        <div class="stars"></div>
+
+        <div class="welcome-content">
+
+            <p class="small-text">
+                Welcome to your little universe.
+            </p>
+
+            <h1>Birthday Surprise</h1>
+            <p class="birthday-text">
+                To My Fav Person💕
+            </p>
+
+            <button id="enter-btn">
+                ENTER ✦
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- LOVE TREE SCREEN -->
+    <section id="tree-screen" class="screen">
+
+        <div class="stars"></div>
+
+        <div class="page-content">
+
+            <button id="tree-back-btn" class="back-btn">
+                ← Back
+            </button>
+
+            <p class="small-text">
+                A little tree of memories
+            </p>
+
+            <h2>Our Little Universe 🌙</h2>
+
+            <p class="instruction">
+            Tap the hearts.
+            </p>
+
+        <div class="tree">
+
+            <div class="trunk"></div>
+
+            <button class="heart heart1" data-memory="0">♥</button>
+            <button class="heart heart2" data-memory="1">♥</button>
+            <button class="heart heart3" data-memory="2">♥</button>
+            <button class="heart heart4" data-memory="3">♥</button>
+            <button class="heart heart5" data-memory="4">♥</button>
+            <button class="heart heart6" data-memory="5">♥</button>
+            <button class="heart heart7" data-memory="6">♥</button>
+
+</div>
+
+            <button id="memories-btn" class="continue-btn">
+                Continue to our memories →
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- MEMORIES SCREEN -->
+    <section id="memories-screen" class="screen">
+
+        <div class="stars"></div>
+
+        <div class="page-content memories-content">
+
+            <button id="memories-back-btn" class="back-btn">
+                ← Back
+            </button>
+
+            <p class="small-text">
+                A few moments I want to keep forever
+            </p>
+
+            <h2>Our Memories 💜</h2>
+
+            <p class="instruction">
+                Tap a photo to look closer.
+            </p>
+
+            <div class="memory-gallery">
+
+                <div class="memory-card" data-image="images/memory1.jpeg">
+                    <img src="images/memory1.jpeg" alt="Memory 1">
+                    <p>HEHE ingat lagi nak try snap comey pake lukis mcm tu hehe😝 Tapi ingat jugak syg ada curi sos cili mcd sya HMPH😠</p>
+                </div>
+
+                <div class="memory-card" data-image="images/memory2.jpeg">
+                    <img src="images/memory2.jpeg" alt="Memory 2">
+                    <p>AAAA BAGAN DATO nk jalan2 lagii ngn syggg nak kahwinnn x nk pikirr orggg😭💕</p>
+                </div>
+
+                <div class="memory-card" data-image="images/memory3.jpeg">
+                    <img src="images/memory3.jpeg" alt="Memory 3">
+                    <p>SLH SATUU FAV TEMPATT SEMUAA KUCINGG COMEYYY SEKALII MAKANAN DESSERT UN SDP AAAAAAAAAAAAAAAAAAAAAAAAAAAAA KITE UN COMEY AAAAAAAAAAAAAAAAA</p>
+                </div>
+
+                <div class="memory-card" data-image="images/memory4.jpeg">
+                    <img src="images/memory4.jpeg" alt="Memory 4">
+                    <p>I LIKEE THISS THEME PARKKK BESTTTT DUIT HILANG KE SITUU BERBALOII HEHE😝</p>
+                </div>
+
+                <div class="memory-card" data-image="images/memory5.jpeg">
+                    <img src="images/memory5.jpeg" alt="Memory 5">
+                    <p>SYGGG SUKEE ENN MUKE SYAA GINIIII BUROKK AHH MUKE SYAA NYAA NGN MAROHNYAA AAAAAAAAAAAAA😭</p>
+                </div>
+
+                <div class="memory-card" data-image="images/memory6.jpeg">
+                    <img src="images/memory6.jpeg" alt="Memory 6">
+                    <p>I LIKEEE THIS TOOOOO ADAA VID SEKALIIII tapi sakit leher sikit sbb tinggi lak camera nya AAAAAAAAA😝💕</p>
+                </div>
+
+            </div>
+
+            <button id="letter-btn" class="continue-btn">
+                Continue to my letter → 💌
+            </button>
+
+        </div>
+
+    </section>
+
+
+<!-- LETTER SCREEN -->
+<section id="letter-screen" class="screen">
+
+    <div class="stars"></div>
+
+    <div class="page-content letter-content">
+
+        <button id="letter-back-btn" class="back-btn">
+            ← Back
+        </button>
+
+        <p class="small-text">
+            Something I want you to read
+        </p>
+
+        <h2>A Little Letter For You 💌</h2>
+
+        <div class="envelope">
+            <div class="envelope-flap"></div>
+
+            <div class="letter-paper">
+
+                <h3>To my luv my everything my beloved bbyh, 💜</h3>
+                <p>
+                    <span class="letter-placeholder">
+                    ˚⊹♡ ℍ𝕒𝕡𝕡𝕪 𝕓𝕚𝕣𝕥𝕙𝕕𝕒𝕪 ˚⊹♡
+                    </span>
+                    <br><br>
+                    WAAA U ALREADY 21 YEARS OLD LAH HEHE😝 SYAA DOAKAN SYGG MURAH REZEKII PANJANG UMOR SEKALI DILINDUNGI SELALUU SYNGGG💕 SEMOGAA SYGG TEROS BERJAYA DAN TEROS MAJU DLM SEGALA YG SYGG NKK CAPAII💕 WALAUPUN SYGG JAUHH SYGG TETAP DI HATI SYAA MUAHHH💕
+                    SETEROK2 AYGG MRH SYA PERLI SYA, SYA TETAP STAY BY UR SIDE AND LUV U💕 
+                    <br><br>
+                    SOWWY FOR MY MEROYAN, OVERREACTING ACT BEFORE THIS SYGG☹️ I WILL TRY MY BEST TO FIX IT💕 SEGADO2 UNN KITEE SYAA TETAP DIHATI SYG DAN TETAP SYG SYGG SYAA☹️💕
+                    WHATEVER DAYS BE GOING I WILL TRY MY BEST BE THERE FOR SYG💕💕 SOWWY IF THE BEST I CAN STILL KECEWAKAN SYG☹️ SBB SETAKAT NI BNYK KECEWA SYA BAGI AYG😭 SOWWY FROM BOTTOM OF MY HEART FROM WHAT I SAID HOW I ACT MAKE U ANGRY SAD☹️
+                    DONT LEAVEE MEE AYGG😭
+                    <br><br>
+                    HEHE JOIN SYAA DH TU 21 HEHE😝
+                </p>
+
+                <p class="letter-signature">
+                    Love,<br>
+                    Your Darling♡
+                </p>
+
+            </div>
+
+        </div>
+
+        <button id="letter-continue-btn" class="continue-btn">
+            Continue to your surprise → 
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- GIFT SCREEN -->
+<section id="gift-screen" class="screen">
+
+    <div class="stars"></div>
+
+    <div class="page-content gift-content">
+
+        <button id="gift-back-btn" class="back-btn">
+            ← Back
+        </button>
+
+        <p class="small-text">
+            One last little surprise...
+        </p>
+
+        <h2>A Gift For You 🎁</h2>
+
+        <p class="instruction">
+            Tap the gift.
+        </p>
+
+        <div id="gift-box" class="gift-box">
+
+            <div class="gift-lid">
+                <div class="ribbon-vertical"></div>
+            </div>
+
+            <div class="gift-body">
+                <div class="ribbon-vertical"></div>
+                <div class="ribbon-horizontal"></div>
+            </div>
+
+        </div>
+
+        <p id="gift-hint" class="gift-hint">
+            ✨ There's something waiting inside...
+        </p>
+
+        <div id="gift-message" class="gift-message">
+
+            <h3>Surprise! 💜</h3>
+
+            <p>
+                I LUV U SYGGG HADIAHH HOLD DULUUUUUUUUU HEHE😭💕
+                <br><br>
+                sya hrp website kecikk nii dpt remind syg tu ada bbyh kecik ni yg maseh ingat syg, syg bbyh sya nk syg jaga diri elok2 baru sya un senang nk jaga diri elok2☹️💕♡            
+                <br><br>
+                HEPI BDAY LUV🎂🎉
+            </p>
+
+        </div>
+
+        <button id="final-btn" class="continue-btn">
+            Continue → ✨
+        </button>
+
+    </div>
+
+</section>
+
+
+<!-- FINAL SCREEN -->
+<section id="final-screen" class="screen">
+
+    <div class="stars"></div>
+
+    <div class="page-content final-content">
+
+        <p class="small-text">
+            And this is where our little universe ends...
+        </p>
+
+        <h1 class="final-title">
+            Happy Birthday,<br>
+            Akira💜
+        </h1>
+
+        <div class="floating-photos">
+
+            <img src="images/memory4.jpeg" alt="Memory">
+            <img src="images/memory3.jpeg" alt="Memory">
+            <img src="images/memory5.jpeg" alt="Memory">
+
+        </div>
+
+        <div class="final-message">
+
+            <p>
+                FOREVER MY SYGG AND ONLY
+                <br><br>
+                27.09.2005 (25.27)
+            </p>
+
+        </div>
+
+        <p class="forever">
+            Forever & Always ♡
+        </p>
+
+        <button id="restart-btn" class="continue-btn">
+            ↻ Start Again
+        </button>
+
+    </div>
+
+</section>
+
+
+    <!-- PHOTO POPUP -->
+    <div id="photo-popup" class="photo-popup">
+
+        <div class="photo-popup-content">
+
+            <button id="photo-close">×</button>
+
+            <img id="popup-photo" src="" alt="Memory">
+
+        </div>
+
+    </div>
+
+
+    <!-- MEMORY MESSAGE POPUP -->
+    <div id="memory-popup" class="memory-popup">
+
+        <div class="memory-popup-content">
+
+            <button id="close-popup">×</button>
+
+            <h2 id="popup-title"></h2>
+
+            <p id="popup-message"></p>
+
+        </div>
+
+    </div>
+
+
+    <audio id="background-music" loop>
+        <source src="music/birthday-song.mp3" type="audio/mpeg">
+    </audio>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
