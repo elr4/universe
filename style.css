@@ -891,52 +891,54 @@ body {
         0 0 15px rgba(190,140,255,0.3);
 }
 
-/* =========================
-   MOBILE
-========================= */
-
-@media (max-width: 600px) {
-
-    .page-content {
-        padding-left: 15px;
-
-        padding-right: 15px;
+/* ========================= 
+   MOBILE 
+========================= */ 
+ 
+@media (max-width: 600px) { 
+ 
+    .page-content { 
+        padding-left: 15px; 
+        padding-right: 15px; 
+    } 
+ 
+    .page-content h2 { 
+        font-size: 24px; 
+    } 
+ 
+    .tree { 
+        transform: scale(0.9); 
+        margin-top: 10px; 
+        margin-bottom: 0; 
+    } 
+ 
+    .memory-gallery { 
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+        max-width: 350px; 
+        margin-left: auto; 
+        margin-right: auto; 
+    } 
+ 
+    .memory-card { 
+        padding: 6px 6px 11px; 
+    } 
+ 
+    .memory-card p { 
+        font-size: 11px; 
+    } 
+ 
+    .continue-btn { 
+        font-size: 13px; 
+        padding: 12px 20px; 
     }
 
-    .page-content h2 {
-        font-size: 24px;
+    /* Fix letter section on mobile */
+    #letter-screen .page-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
-
-    .tree {
-        transform: scale(0.9);
-
-        margin-top: 10px;
-
-        margin-bottom: 0;
-    }
-
-    .memory-gallery {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-    .memory-card {
-        padding: 6px 6px 11px;
-    }
-
-    .memory-card p {
-        font-size: 11px;
-    }
-
-    .continue-btn {
-        font-size: 13px;
-
-        padding: 12px 20px;
-    }
-
+ 
 }
 
 
